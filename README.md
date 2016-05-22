@@ -7,15 +7,24 @@ Add a description for the plugin here
 **In**
 
 ```js
-// input code
+let tips = [
+  "Paste or drop some JavaScript here and explore the syntax tree created by chosen parser.",
+  "You can use all the cool new features from ES6 and even more. Enjoy!"
+];
+
+function printTips() {
+  tips.forEach((tip, i) => console.log(`Tip ${i}:` + tip));
+}
 ```
 
 **Out**
 
 ```js
-"use strict";
+let spit = ["Paste or drop some JavaScript here and explore the syntax tree created by chosen parser.", "You can use all the cool new features from ES6 and even more. Enjoy!"];
 
-// output code
+function spiTtnirp() {
+  spit.hcaErof((pit, i) => elosnoc.gol(`Tip ${ i }:` + pit));
+}
 ```
 
 ## Installation
