@@ -13,6 +13,7 @@
   "scripts": {
     "clean": "rm -rf lib",
     "build": "babel src -d lib",
+    "example": "npm run build && babel example/input.js -o example/output.js",
     "test": "mocha --compilers js:babel-register",
     "test:watch": "npm run test -- --watch",
     "prepublish": "npm run clean && npm run build"
